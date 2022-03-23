@@ -12,6 +12,10 @@ header ul li{
     margin: 3%;
 }
 
+body section div li{
+    text-decoration: none;
+    text-decoration-color: none;
+}
 
 header{
     background-color: #FDDE8F;
@@ -21,7 +25,8 @@ header{
 .logo{
     height: 10rem;
     width: 10rem;
-    border-radius: 100%; 
+    border-radius: 100%;
+    margin-top: 0.50rem; 
 }
 
 
@@ -32,6 +37,8 @@ header{
     font-family: 'Roboto';
     
 }
+
+
 
 
 /* FIN HEADER*/
@@ -207,7 +214,6 @@ textarea{
 
 .parrafoinformate{
     margin: 0%;
-    padding: 0%;
 }
 
 /* FIN MAIN INFORMATE*/
@@ -236,16 +242,125 @@ footer div p{
 
 /* FIN FOOTER */
 
-/* MOBILE 1200 */
-@media (min-width: 769px) and (max-width: 1200px){
+/* MOBILE */
+@media (min-width: 320px) and (max-width: 480px){
+    .logo{
+        height: 4rem;
+        width: 4rem; 
+    }
+
+    .text-center{
+        font-size: 1rem;
+        margin-top: 0.50rem;
+    }
+    .div-main{
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 2;
+    }
+
+    .img-juan{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        padding: 1rem;
+        margin-top: 1rem;
+        align-items: center;
+        border-radius: 50%;
+        width: 18rem;
+        height: 18rem;
+    }
+
+    .texto-aboutme{
+        padding: 1rem;
+        height: fit-content;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        margin-top: 1rem;
+    }
+    
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: "roboto";
+    }
+
+    .pacientes-sec{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    .texto-adopta{
+        height: auto;
+        width: 100%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+
+    .titulo-form{
+        text-align: center;
+        font-family: "roboto";
+        color: whitesmoke;
+        font-size: 1rem;
+    }
 
 
 
+    .parrafoinformate{
+        height: auto;
+        width: auto;
+        padding: 0%;
+        margin: 0%;
+    }
+    main{
+        margin: 0%;
+    }
 
+    .imagenvet{
+        width: 17rem;
+        justify-content: center;
+        margin-top: 2rem;
+    }
 
+    .fondoindex{
+        height: 15rem;
+        width: auto;
+    }
 
+    form{
+        width: 100%;
+        padding: 0px;
+        font-family: "roboto";
+    }
+    
+    input, textarea{
+        width: 100%;
+        margin-bottom: 1rem;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    textarea{
+        min-height: 15rem;
+        max-height: 30rem;
+        max-width: 100%;
+        margin-left: 2rem;
+    }
+    #boton{
+        border-radius: 30%;
+        padding: 0%;
+    }
 
+    
 }
+
+
+
 
 /* MOBILE 768 */
 @media (min-width: 481px) and (max-width: 768px){
