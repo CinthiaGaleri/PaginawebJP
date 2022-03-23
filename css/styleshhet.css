@@ -38,6 +38,10 @@ header{
     
 }
 
+header li{
+    list-style: none;
+}
+
 
 
 
@@ -356,7 +360,10 @@ footer div p{
         padding: 0%;
     }
 
-    
+    .d-flex{
+        flex-wrap: wrap;
+        margin: 0%;
+    }
 }
 
 
