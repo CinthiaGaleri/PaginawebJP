@@ -205,6 +205,10 @@ textarea{
     text-align: center;
 }
 
+.parrafoinformate{
+    margin: 0%;
+}
+
 /* FIN MAIN INFORMATE*/
 
 
@@ -305,6 +309,8 @@ footer div p{
         color: whitesmoke;
         font-size: 1rem;
     }
+
+
 
     .parrafoinformate{
         height: auto;
