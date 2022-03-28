@@ -1,0 +1,213 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import "header";
+@import "mobilei";
+@import "footer";
+
+
+/* MAIN INDEX */
+
+.fondoindex{
+    background-image: url(../img/fondo-patitas-huesos.jpg);
+    background-attachment: fixed;
+}
+
+
+imgvete{
+    height: 100%;
+    width: 100%; 
+    margin: 2rem 0px 2rem 0px;
+}
+
+/* FIN MAIN INDEX */
+
+/* MAIN CONTACTO */
+
+.textobien{
+    text-align: justify;
+    background-image: url(../img/fondo-patitas-huesos.jpg);
+    background-attachment: fixed;
+}
+
+.div-main{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    height: auto;
+    background-color: #ebd8a8;
+    opacity: 0.9;
+}
+
+.img-juan{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 2rem;
+    margin-top: 2rem;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.texto-aboutme{
+    padding: 1rem;
+    height: fit-content;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin-top: 4rem;
+}
+
+.gridgmail{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 1;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    justify-items: center;
+    background-color: #ebd8a8;
+    opacity: 0.90;
+    padding: 10px;
+    margin: 0%;
+}
+.contacto{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "roboto";
+}
+
+/*FIN MAIN CONTACTO */
+
+/* MAIN PACIENTES */
+
+.textoPacientes{
+    text-align: justify;
+    background-image: url(../img/fondo-patitas-huesos.jpg);
+    background-attachment: fixed;
+    height: auto;
+}
+
+.pacientes-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.fotos{
+    height: 300px;
+    width: 300px;
+    margin: 5px;
+}
+
+.fotos:hover{
+    transform: scale(2);
+}
+
+/* FIN MAIN PACIENTES */
+
+
+
+
+
+
+
+
+/* MOBILE 768 */
+@media (min-width: 481px) and (max-width: 768px){
+    .logo{
+        height: 6rem;
+        width: 6rem; 
+    }
+
+    .div-main{
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 2;
+    }
+
+    .img-juan{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        padding: 1rem;
+        margin-top: 1rem;
+        align-items: center;
+        border-radius: 50%;
+        width: 30rem;
+        height: 30rem;
+    }
+
+    .texto-aboutme{
+        padding: 1rem;
+        height: fit-content;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        margin-top: 1rem;
+    }
+    
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: "roboto";
+    }
+
+    .pacientes-sec{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    .texto-adopta{
+        height: auto;
+        width: 100%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+
+    .titulo-form{
+        text-align: center;
+        font-family: "roboto";
+        color: whitesmoke;
+        font-size: 1rem;
+    }
+
+
+
+    .parrafoinformate{
+        height: auto;
+        width: auto;
+        padding: 0%;
+        margin: 0%;
+    }
+    main{
+        margin: 0%;
+    }
+
+    .imagenvet{
+        width: 25rem;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .fondoindex{
+        height: 20rem;
+        width: auto;
+    }
+        
+}

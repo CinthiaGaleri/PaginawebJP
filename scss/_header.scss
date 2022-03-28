@@ -1,0 +1,38 @@
+
+
+header ul li{
+    display: inline;
+    margin: 3%;
+}
+
+body section div li{
+    text-decoration: none;
+    text-decoration-color: none;
+}
+
+header{
+    background-color: #FDDE8F;
+}
+
+
+.logo{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+    margin-top: 0.50rem; 
+}
+
+
+
+.text-center{
+    justify-content: center;
+    align-self: center;
+    font-family: 'Roboto';
+    
+}
+
+header li{
+    list-style: none;
+}
+
+
