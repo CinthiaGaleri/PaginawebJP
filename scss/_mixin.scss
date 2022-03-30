@@ -1,0 +1,14 @@
+@mixin mp ($margin, $padding) {
+    margin: $margin;
+    padding: $padding;
+}
+
+@mixin wh ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+.claseSinUso{
+    @include wh(auto, 10px );
+    @include mp(1rem, 2rem );
+}

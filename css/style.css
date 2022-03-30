@@ -152,6 +152,13 @@ footer div p {
 }
 
 /* FIN MAIN INFORMATE*/
+.claseSinUso {
+  width: auto;
+  height: 10px;
+  margin: 1rem;
+  padding: 2rem;
+}
+
 /* MAIN ADOPTA */
 /*class texto bien se comparte con contacto*/
 .titulo-div {
@@ -204,6 +211,13 @@ textarea {
 
 /* fin formulario adopta*/
 /* FIN MAIL ADOPTA*/
+.claseSinUso {
+  width: auto;
+  height: 10px;
+  margin: 1rem;
+  padding: 2rem;
+}
+
 /* MAIN INDEX */
 .fondoindex {
   background-image: url(../img/fondo-patitas-huesos.jpg);
