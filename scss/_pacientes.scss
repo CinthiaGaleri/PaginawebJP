@@ -1,0 +1,26 @@
+
+/* MAIN PACIENTES */
+
+.textoPacientes{
+    text-align: justify;
+    background-image: url(../img/fondo-patitas-huesos.jpg);
+    background-attachment: fixed;
+    height: auto;
+}
+
+.pacientes-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.fotos{
+    height: 300px;
+    width: 300px;
+    margin: 5px;
+    border-radius: 20%;
+}
+
+
+/* FIN MAIN PACIENTES */

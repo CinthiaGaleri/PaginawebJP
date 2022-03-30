@@ -1,0 +1,63 @@
+
+/* MAIN CONTACTO */
+
+.textobien{
+    text-align: justify;
+    background-image: url(../img/fondo-patitas-huesos.jpg);
+    background-attachment: fixed;
+}
+
+.div-main{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    height: auto;
+    background-color: #ebd8a8;
+    opacity: 0.9;
+}
+
+.img-juan{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 2rem;
+    margin-top: 2rem;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.texto-aboutme{
+    padding: 5rem;
+    height: fit-content;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 4rem;
+}
+
+.gridgmail{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 1;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    justify-items: center;
+    background-color: #ebd8a8;
+    opacity: 0.90;
+    padding: 10px;
+    margin: 0%;
+}
+.contacto{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "roboto";
+}
+
+/*FIN MAIN CONTACTO */

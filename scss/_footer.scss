@@ -1,4 +1,6 @@
 @import "variables";
+@import "extends";
+
 
 footer{
     background-color: $bg-amarillo;
@@ -15,6 +17,6 @@ footer div p{
 
 
 .d-flex{
-    font-family: "roboto";
+    @extend %centrado;
 }
 

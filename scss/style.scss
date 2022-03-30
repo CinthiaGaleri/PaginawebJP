@@ -7,6 +7,10 @@
 @import "header";
 @import "footer";
 @import "variables";
+@import "../scss/extends";
+@import "../scss/maincontacto";
+@import "../scss/pacientes";
+@import "../scss/maininformate";
 
 
 /* MAIN INDEX */
@@ -16,97 +20,7 @@
     background-attachment: fixed;
 }
 
-
 /* FIN MAIN INDEX */
-
-/* MAIN CONTACTO */
-
-.textobien{
-    text-align: justify;
-    background-image: url(../img/fondo-patitas-huesos.jpg);
-    background-attachment: fixed;
-}
-
-.div-main{
-    display: grid;
-    grid-template-columns: 2;
-    grid-template-rows: 2;
-    height: auto;
-    background-color: #ebd8a8;
-    opacity: 0.9;
-}
-
-.img-juan{
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    padding: 2rem;
-    margin-top: 2rem;
-    align-items: center;
-    border-radius: 50%;
-}
-
-.texto-aboutme{
-    padding: 5rem;
-    height: fit-content;
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    margin-top: 4rem;
-}
-
-.gridgmail{
-    display: grid;
-    grid-template-columns: 2;
-    grid-template-rows: 1;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    justify-items: center;
-    background-color: #ebd8a8;
-    opacity: 0.90;
-    padding: 10px;
-    margin: 0%;
-}
-.contacto{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-family: "roboto";
-}
-
-/*FIN MAIN CONTACTO */
-
-/* MAIN PACIENTES */
-
-.textoPacientes{
-    text-align: justify;
-    background-image: url(../img/fondo-patitas-huesos.jpg);
-    background-attachment: fixed;
-    height: auto;
-}
-
-.pacientes-sec{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-}
-
-.fotos{
-    height: 300px;
-    width: 300px;
-    margin: 5px;
-    border-radius: 20%;
-}
-
-
-/* FIN MAIN PACIENTES */
 
 
 /* MOBILE 768 */
@@ -198,73 +112,6 @@
         
 }
 
-/* MAIN ADOPTA */
-
-/*class texto bien se comparte con contacto*/
-
-.titulo-div{
-    text-align: center;
-    font-family: "roboto";
-    font-size: xx-large;
-    padding: 20px;
-    margin: 0%;
-}
-
-.texto-adopta{
-    height: 200px;
-    width: 100%;
-    padding: 30px;
-    box-sizing: border-box;
-}
-
-/* inicia formulario de adopta*/
-form{
-    width: 500px;
-    background: rgba(0, 0, 0, 0.4);
-    padding: 10px;
-    font-family: "roboto";
-}
-
-input, textarea{
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 7px;
-    box-sizing: border-box;
-}
-textarea{
-    min-height: 100px;
-    max-height: 250px;
-    max-width: 100%;
-}
-#boton{
-    border-radius: 50px;
-    padding: 10px;
-}
-
-.titulo-form{
-    text-align: center;
-    font-family: "roboto";
-    color: whitesmoke;
-}
-/* fin formulario adopta*/
-/* FIN MAIL ADOPTA*/
-
-/* MAIN INFORMATE*/
-
-/*textobien2 comparte*/
-
-.titulo1{
-    margin: 0%;
-    font-size: x-large;
-    font-family: "roboto";
-    text-align: center;
-}
-
-.parrafoinformate{
-    margin: 0%;
-}
-
-/* FIN MAIN INFORMATE*/
 
 body{
     main{
@@ -280,23 +127,8 @@ body{
     }
 }
 
-/* MAIN INFORMATE*/
 
-/*textobien2 comparte*/
-
-.titulo1{
-    margin: 0%;
-    font-size: x-large;
-    font-family: "roboto";
-    text-align: center;
-}
-
-.parrafoinformate{
-    margin: 0%;
-}
-
-/* FIN MAIN INFORMATE*/
-
+/* Mobile pequeño*/
 
 @media (min-width: 320px) and (max-width: 480px){
     .logo{

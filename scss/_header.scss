@@ -27,7 +27,7 @@ header{
 .text-center{
     justify-content: center;
     align-self: center;
-    font-family: 'Roboto';
+    @extend %centrado;
     
 }
 
