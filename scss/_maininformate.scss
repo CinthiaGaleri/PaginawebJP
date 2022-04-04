@@ -8,10 +8,33 @@
     font-size: x-large;
     @extend %centrado;
     text-align: center;
+    padding: 2rem;
+    text-decoration-line: underline;
 }
 
 .parrafoinformate{
-    margin: 0%;
+    margin-left: 3rem;
+    margin-right: 3rem;   
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 
+.titulosInformate{
+    margin: 0%;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+   
+}
+
+.divInformate{
+    background-color: #ebd8a8;
+    opacity: 90%;
+    margin-top: 0%;
+}
+
+.liInformate{
+    margin-left: 3rem;
+    margin-right: 3rem; 
+}
 /* FIN MAIN INFORMATE*/
