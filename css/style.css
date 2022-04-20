@@ -242,7 +242,7 @@ textarea {
 
 /* FIN MAIN INDEX */
 /* MOBILE 768 */
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 999px) {
   .logo {
     height: 6rem;
     width: 6rem;
