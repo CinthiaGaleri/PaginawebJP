@@ -124,6 +124,12 @@ footer div p {
   height: auto;
 }
 
+.opacidad {
+  background-color: #ebd8a8;
+  opacity: 0.9;
+  border-radius: 20%;
+}
+
 .pacientes-sec {
   display: flex;
   flex-direction: row;
@@ -185,6 +191,11 @@ footer div p {
   margin: 0%;
 }
 
+.fondoAdopta {
+  background-color: #ebd8a8;
+  opacity: 0.9;
+}
+
 .texto-adopta {
   height: 200px;
   width: 100%;
@@ -198,6 +209,10 @@ form {
   background: rgba(0, 0, 0, 0.4);
   padding: 10px;
   font-family: "roboto";
+}
+
+.formularioAdopta {
+  margin: auto;
 }
 
 input, textarea {
@@ -241,7 +256,7 @@ textarea {
 }
 
 /* FIN MAIN INDEX */
-/* MOBILE 768 */
+/* MOBILE */
 @media (min-width: 481px) and (max-width: 999px) {
   .logo {
     height: 6rem;
@@ -293,7 +308,7 @@ textarea {
   .texto-adopta {
     height: auto;
     width: 100%;
-    padding: 0%;
+    padding: 1rem;
     box-sizing: border-box;
   }
 
@@ -385,7 +400,7 @@ body main div nav ul li {
   .texto-adopta {
     height: auto;
     width: 100%;
-    padding: 0%;
+    padding: 1rem;
     box-sizing: border-box;
   }
 
